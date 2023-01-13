@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $main-grey;
+    background-color: $white;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.section {
+    padding: 94px 0 94px 0;
+        &__name {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    display: block;
+    border: none;
+    border-radius: 4px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-box container">
+        <a class="logo" href="./index.html">Web<span class="logo__span">Studio</span></a>
+        <nav class="navigation">
+          <ul class="navigation__menu list">
+            <li>
+              <a
+                class="navigation__link navigation__link--active navigation__link--hover navigation__link--focus link"
+                href="./index.html"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a
+                class="navigation__link navigation__link--active navigation__link--hover navigation__link--focus link current"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                class="navigation__link navigation__link--active navigation__link--hover navigation__link--focus link"
+                href="#"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li>
+            <a
+              class="contacts__link contacts__link--active contacts__link--hover contacts__link--focus link"
+              href="mailto:info@devstudio.com"
+            >
+              <svg
+                class="contacts__icon contacts__icon--hover contacts__icon--focus"
+                width="16"
+                height="12"
+              >
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a
+              class="contacts__link contacts__link--active contacts__link--hover contacts__link--focus link"
+              href="tel:+48111111111"
+            >
+              <svg
+                class="icon-contact contacts__icon contacts__icon--hover contacts__icon--focus"
+                width="10"
+                height="16"
+              >
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="filter list section">
+            <li>
+              <button type="button" class="filter__button">Wszystkie</button>
+            </li>
+            <li>
+              <button type="button" class="filter__button">Strony</button>
+            </li>
+            <li>
+              <button type="button" class="filter__button">Aplikacje</button>
+            </li>
+            <li>
+              <button type="button" class="filter__button">Dizajn</button>
+            </li>
+            <li>
+              <button type="button" class="filter__button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="portfolio portfolio__grid list section">
+            <li>
+              <a class="portfolio__link" href="#">
+                <div class="portfolio__box">
+                  <img src="images/3a.jpg" alt="laptop" width="370" height="294" />
+                  <div class="portfolio__overlay">
+                    <p>
+                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
+                      na niezabezpieczone serwery konkurencji
+                    </p>
+                  </div>
+                </div>
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Technocrack</h3>
+                  <p class="portfolio__type">Strona internetowa</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3b.jpg" alt="zawodnicy koszykówki" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Grafika New Orlean vs Golden Star</h3>
+                  <p class="portfolio__type">Dizajn</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3c.jpg" alt="logo restauracji" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Restauracja Seafood</h3>
+                  <p class="portfolio__type">Aplikacja</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3d.jpg" alt="słuchawki" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Projekt Prime</h3>
+                  <p class="portfolio__type">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3e.jpg" alt="pudełka" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Projekt Boxes</h3>
+                  <p class="portfolio__type">Aplikacja</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3f.jpg" alt="komputer" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Inspiration has no Borders</h3>
+                  <p class="portfolio__type">Strona internetowa</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3g.jpg" alt="magazyn" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Magazyn Limited Edition</h3>
+                  <p class="portfolio__type">Dizajn</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3h.jpg" alt="etykieta" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Projekt LAB</h3>
+                  <p class="portfolio__type">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="portfolio__link" href="#">
+                <img src="images/3i.jpg" alt="osoba pracuje na laptopie" width="370" height="294" />
+                <div class="portfolio__text">
+                  <h3 class="portfolio__name">Growing Business</h3>
+                  <p class="portfolio__type">Aplikacja</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__box">
+        <div>
+          <address>
+            <a class="logo footer__logo" href="./index.html"
+              >Web<span class="logo__span logo__span--white">Studio</span></a
+            >
+            <ul class="address list">
+              <li>
+                <a
+                  class="address__link link"
+                  href="https://goo.gl/maps/SobGW4DFM7hD716b8"
+                  target="_blank"
+                  rel="noopener nofollow"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li class="list">
+                <a
+                  class="address__link link address__link--transparent"
+                  href="mailto:info@example.com"
+                  target="_blank"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="list">
+                <a class="address__link link address__link--transparent" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="sm-list__title">Dołącz do nas</p>
+          <ul class="sm-list sm-list__footer list">
+            <li>
+              <a
+                class="sm-list__icon sm-list__icon--white sm-list__icon--hover sm-list__icon--focus sm-list__icon--active"
+                href="#"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="sm-list__icon sm-list__icon--white sm-list__icon--hover sm-list__icon--focus sm-list__icon--active"
+                href="#"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="sm-list__icon sm-list__icon--white sm-list__icon--hover sm-list__icon--focus sm-list__icon--active"
+                href="#"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="sm-list__icon sm-list__icon--white sm-list__icon--hover sm-list__icon--focus sm-list__icon--active"
+                href="#"
+              >
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <p class="newsletter__label">zapisz się do newslettera</p>
+
+          <form class="newsletter__form">
+            <input type="email" name="email" class="newsletter__input" placeholder="Email" />
+            <button type="submit" class="newsletter__button">
+              Zapisz się
+              <svg class="newsletter__send-icon" width="24" height="24">
+                <use href="./images/icons2.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
