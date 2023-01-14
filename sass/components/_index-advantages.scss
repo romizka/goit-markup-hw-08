@@ -21,6 +21,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     &__text {
@@ -30,13 +31,14 @@
 
     &__list {
         display: flex;
+        flex-wrap: wrap;
         gap: 30px;
 
     }
 
     &__icon-bgc {
         background-color: $beige-2;
-        width: 270px;;
+        width: 100%;
         height: 120px;
         display: flex;
         justify-content: center;
@@ -46,6 +48,32 @@
         
         }
 
+}
+
+@media screen and (min-width: 768px) {
+    .advantages li {
+        width: calc((95% - 30px) / 2);
+    }
+
+    .advantages__subtitle {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.advantages {
+
+    &__list {
+
+        flex-wrap: nowrap;
+
+    }
+
+    &__icon-bgc {
+        background-color: $beige-2;
+        width: 270px;;
+        }
+}
 }
 
 

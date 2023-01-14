@@ -1,3 +1,19 @@
+
+@media screen and (max-width: 1199px) {
+    .modal {
+        width: 95%;
+        max-width: 450px;
+        height: 95%;
+        max-height: 609px;
+        overflow: scroll;
+    }
+
+    .custom-checkbox {
+        margin-bottom: 40px;
+    }
+
+  }
+
 .is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -22,8 +38,6 @@
 
 .modal {
     position: relative;
-    width: 528px;
-    height: 581px;
     background-color: $white;
     transform: scale(1);
     padding: 40px;
@@ -143,7 +157,7 @@
     position: relative;
     display: flex;
     align-items: baseline;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 
     input[type=checkbox] {
         background-color: $white;
@@ -184,6 +198,17 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .modal {
+        width: 528px;
+        height: 581px; 
+    }
+
+    .custom-checkbox {
+        margin-bottom: 30px;
+    }
+
+}
 
 
 

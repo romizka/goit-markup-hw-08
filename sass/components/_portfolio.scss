@@ -1,6 +1,7 @@
 .filter {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 8px;
     padding-bottom: 50px;
 
@@ -106,4 +107,16 @@
     transform: translateY(0);
 }
 
+@media screen and (min-width:1200px) {
+    .filter {
+        flex-wrap: no-wrap;
+        justify-content: center;
+    }
+}
 
+
+@media screen and (min-width: 768px) {
+.portfolio__link {
+    flex-basis: calc((100% - 30px) / 2);
+}
+}

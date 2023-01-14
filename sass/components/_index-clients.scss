@@ -1,9 +1,8 @@
-
-
 .clients {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
     &__icon {
         fill: currentColor;
@@ -12,7 +11,6 @@
     &__item-link {
         border: 1px solid currentColor;
         border-radius: 4px;
-        width: 170px;
         height: 92px;
         display: flex;
         justify-content: center;
@@ -26,5 +24,23 @@
                 color: $blue;
             }
     }
+
+    .clients li {
+        min-width: calc((95% - 30px) / 2);
+    }
     
 }
+
+
+@media screen and (min-width: 768px) {
+    .clients li {
+        width: calc((95% - 30px) / 3);
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .clients li {
+        width: 170px;
+    }
+
+ }
