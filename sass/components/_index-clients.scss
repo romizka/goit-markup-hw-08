@@ -12,6 +12,7 @@
         border: 1px solid currentColor;
         border-radius: 4px;
         height: 92px;
+        width: 210px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -24,22 +25,18 @@
                 color: $blue;
             }
     }
-
-    .clients li {
-        min-width: calc((95% - 30px) / 2);
-    }
     
 }
 
 
 @media screen and (min-width: 768px) {
-    .clients li {
-        width: calc((95% - 30px) / 3);
+    .clients__item-link {
+        width: 226px;
     }
 }
 @media screen and (min-width: 1200px) {
 
-    .clients li {
+    .clients__item-link {
         width: 170px;
     }
 
