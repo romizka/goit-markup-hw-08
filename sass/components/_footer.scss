@@ -109,7 +109,7 @@ address {
 
     &__input {
         display: block;
-        width: 450px;
+        width: 100%;
         height: 50px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -162,7 +162,14 @@ address {
             flex-wrap: wrap;
             flex-direction: row;
         }
-    
+        .newsletter {
+        
+            &__input {
+                width: 450px;
+            }
+            
+        }
+        
     }
 
 }

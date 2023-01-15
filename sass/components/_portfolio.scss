@@ -107,16 +107,23 @@
     transform: translateY(0);
 }
 
-@media screen and (min-width:1200px) {
-    .filter {
-        flex-wrap: no-wrap;
-        justify-content: center;
-    }
-}
+
 
 
 @media screen and (min-width: 768px) {
-.portfolio__link {
-    flex-basis: calc((100% - 30px) / 2);
+    .filter {
+        justify-content: center;
+    }
+    .portfolio__grid li {
+        width: 354px;
+}
+}
+
+@media screen and (min-width:1200px) {
+    .filter {
+        flex-wrap: no-wrap;
+    }
+    .portfolio__grid li {
+        width: 370px;
 }
 }
