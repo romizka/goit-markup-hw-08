@@ -134,15 +134,18 @@
     .portfolio {
         &__grid li {
         width: 370px;
-    }
+        }
+        
         &__overlay {
             width: 370px;
             height: 294px;
         }
+
         &__text {
             height: 110px;
             width: 370px;
         }
-}
+    }
 
+}
 }
