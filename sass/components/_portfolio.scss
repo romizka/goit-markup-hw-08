@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 8px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 
     &__button {
         background: $beige-2;
@@ -82,7 +82,7 @@
         position: absolute;
         top: 0;
         left: 0; 
-        width: 370px;
+        max-width: 450px;
         height: 294px;
         background: rgba(33, 150, 243, 0.9);
         transform: translateY(150%);
@@ -113,17 +113,36 @@
 @media screen and (min-width: 768px) {
     .filter {
         justify-content: center;
+        padding-bottom: 30px
     }
-    .portfolio__grid li {
-        width: 354px;
-}
-}
+    .portfolio {
+        &__grid li {
+            width: 354px;
+        }
+        
+        &__overlay {
+            width: 354px;
+            height: 294px;
+        }
+    }
 
 @media screen and (min-width:1200px) {
     .filter {
         flex-wrap: no-wrap;
+        padding-bottom: 50px;
     }
-    .portfolio__grid li {
+    .portfolio {
+        &__grid li {
         width: 370px;
+    }
+        &__overlay {
+            width: 370px;
+            height: 294px;
+        }
+        &__text {
+            height: 110px;
+            width: 370px;
+        }
 }
+
 }

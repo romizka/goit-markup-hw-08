@@ -51,7 +51,7 @@
 
     .hero {
        
-        background-image: url(../images/tablet-main-image.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet-main-image.jpg);
        
     
         &__title {
@@ -63,7 +63,7 @@
 @media screen and (min-width: 1200px) {
 .hero {
     padding: 200px 0;
-    background-image: url(../images/main-image.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-image.jpg);
     max-width: 1600px;
     height: 600px;
 

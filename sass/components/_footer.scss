@@ -162,12 +162,13 @@ address {
             flex-wrap: wrap;
             flex-direction: row;
         }
-        .newsletter {
         
-            &__input {
-                width: 450px;
-            }
-            
+    }
+
+    .newsletter {
+        
+        &__input {
+            width: 450px;
         }
         
     }
@@ -203,6 +204,7 @@ address {
 
 .newsletter {
     margin-left: auto;
+    width: auto;
 
     &__form {
         flex-direction: row;
@@ -211,6 +213,10 @@ address {
 
     &__input {
         width: 358px;
+        margin: 0;
+    }
+
+    &__button {
         margin: 0;
     }
     
